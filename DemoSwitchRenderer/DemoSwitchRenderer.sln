@@ -3,13 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSwitchRenderer", "DemoSwitchRenderer\DemoSwitchRenderer\DemoSwitchRenderer.csproj", "{49769076-E208-4F69-B43F-099548E4259F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSwitchRenderer", "DemoSwitchRenderer\DemoSwitchRenderer.csproj", "{49769076-E208-4F69-B43F-099548E4259F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSwitchRenderer.iOS", "DemoSwitchRenderer\DemoSwitchRenderer.iOS\DemoSwitchRenderer.iOS.csproj", "{D9DB64CD-A074-4723-9C19-2F7FEBF51041}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSwitchRenderer.iOS", "DemoSwitchRenderer.iOS\DemoSwitchRenderer.iOS.csproj", "{D9DB64CD-A074-4723-9C19-2F7FEBF51041}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSwitchRenderer.Droid", "DemoSwitchRenderer\DemoSwitchRenderer.Droid\DemoSwitchRenderer.Droid.csproj", "{10DC9003-5CDE-409D-8504-4A1E157DC778}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSwitchRenderer.Droid", "DemoSwitchRenderer.Droid\DemoSwitchRenderer.Droid.csproj", "{10DC9003-5CDE-409D-8504-4A1E157DC778}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSwitchRenderer.WinPhone", "DemoSwitchRenderer\DemoSwitchRenderer.WinPhone\DemoSwitchRenderer.WinPhone.csproj", "{1BBAB1BC-A25C-46EC-A8CD-DEA12DC23AEB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSwitchRenderer.WinPhone", "DemoSwitchRenderer.WinPhone\DemoSwitchRenderer.WinPhone.csproj", "{1BBAB1BC-A25C-46EC-A8CD-DEA12DC23AEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{969E9D7D-3227-4AF5-9B75-ED4A4606CEDA}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
