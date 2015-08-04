@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderersXAML", "RenderersXAML\RenderersXAML\RenderersXAML.csproj", "{644FFD1A-1730-42C2-AA49-50F6EF2055D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderersXAML", "RenderersXAML\RenderersXAML.csproj", "{644FFD1A-1730-42C2-AA49-50F6EF2055D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderersXAML.iOS", "RenderersXAML\RenderersXAML.iOS\RenderersXAML.iOS.csproj", "{F2C5B12D-5982-4B22-BD99-234F192E8C79}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderersXAML.iOS", "RenderersXAML.iOS\RenderersXAML.iOS.csproj", "{F2C5B12D-5982-4B22-BD99-234F192E8C79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderersXAML.Droid", "RenderersXAML\RenderersXAML.Droid\RenderersXAML.Droid.csproj", "{5C8A1DD6-5529-4937-BCF4-E5368848AE45}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderersXAML.Droid", "RenderersXAML.Droid\RenderersXAML.Droid.csproj", "{5C8A1DD6-5529-4937-BCF4-E5368848AE45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderersXAML.WinPhone", "RenderersXAML\RenderersXAML.WinPhone\RenderersXAML.WinPhone.csproj", "{C263D6FC-49C2-4E06-922E-EDD3545C9A97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RenderersXAML.WinPhone", "RenderersXAML.WinPhone\RenderersXAML.WinPhone.csproj", "{C263D6FC-49C2-4E06-922E-EDD3545C9A97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
