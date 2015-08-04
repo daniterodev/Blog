@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:RenderersXAML.Controls;assembly=RenderersXAML"
+    x:Class="RenderersXAML.MainPage">
+    <StackLayout
+        Padding="20">
+        <Label
+            Text="OnColor (iOS y Windows Phone)" />
+        <Entry
+            x:Name="txtOnColor"
+            Text="046FA0" />
+        <Label
+            Text="ThumbColor (iOS y Android)" />
+        <Entry
+            x:Name="txtThumbColor"
+            Text="803F90" />
+        <Button
+            x:Name="btnUpdate"
+            Clicked="Update"
+            Text="Actualizar" />
+        <controls:ExtendedSwitch
+            x:Name="extendedSwitch"
+            HorizontalOptions="Center"
+            OnColor="046FA0"
+            ThumbColor="803F90" />
+    </StackLayout>
+</ContentPage>
