@@ -1,4 +1,2 @@
-Blog
+Demos DaniTero
 ====
-
-Demos del blog DaniTero
